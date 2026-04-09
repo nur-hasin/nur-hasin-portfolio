@@ -67,7 +67,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col justify-center pt-20 md:pt-24 pb-16 px-4 sm:px-6 overflow-hidden"
+      className="min-h-screen flex flex-col justify-center pt-20 md:pt-24 pb-16 px-4 sm:px-6"
     >
       <div className="max-w-6xl mx-auto w-full">
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
@@ -75,10 +75,10 @@ export default function Hero() {
           <div>
             {/* Full name — one line, uniform weight & color, no italic */}
             <motion.h1
-              className="font-semibold leading-[1.15] whitespace-nowrap text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-3 md:mb-4"
+              className="font-semibold leading-[1.15] whitespace-normal sm:whitespace-nowrap text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-3 md:mb-4"
               style={{
                 fontFamily: "var(--font-display)",
-                fontSize: "clamp(34px, 6vw, 68px)",
+                fontSize: "clamp(30px, 6vw, 68px)",
               }}
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
