@@ -149,7 +149,7 @@ export const portfolioData = {
     },
     {
       role: "Open Source Contributor",
-      org: "Elite Coders — Virtual Internship",
+      org: "Elite Coders",
       period: "Jan 2026 – Present",
       type: "Remote",
       active: true,
@@ -161,7 +161,7 @@ export const portfolioData = {
     },
     {
       role: "Open Source Contributor",
-      org: "Hacktoberfest 2025 — DigitalOcean",
+      org: "Hacktoberfest 2025 (DigitalOcean)",
       period: "Oct 2025",
       type: "Remote",
       active: false,
