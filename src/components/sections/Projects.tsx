@@ -14,7 +14,7 @@ export default function Projects() {
         <FadeIn>
           <SectionLabel
             num="03."
-            title="Projects"
+            title="Academic Projects"
             subtitle="A showcase of projects that demonstrate my engineering skills and problem-solving approach."
           />
         </FadeIn>
