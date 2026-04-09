@@ -67,7 +67,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col justify-center pt-20 md:pt-24 pb-16 px-6 overflow-hidden"
+      className="min-h-screen flex flex-col justify-center pt-20 md:pt-24 pb-16 px-4 sm:px-6 overflow-hidden"
     >
       <div className="max-w-6xl mx-auto w-full">
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
